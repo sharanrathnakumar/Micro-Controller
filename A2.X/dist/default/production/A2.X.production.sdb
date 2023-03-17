@@ -1,0 +1,45 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 /opt/microchip/xc8/v2.41/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.41/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.41/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"11 /home/sharan/MPLABXProjects/A2.X/init_config.c
+[v _init_config init_config `(v  1 e 1 0 ]
+"13 /home/sharan/MPLABXProjects/A2.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"340 /opt/microchip/mplabx/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8/pic/include/proc/pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2674
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"13 /home/sharan/MPLABXProjects/A2.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"16
+[v main@count count `ul  1 a 4 16 ]
+"15
+[v main@flag flag `ul  1 a 4 12 ]
+"19
+[v main@clk clk `ul  1 a 4 8 ]
+"18
+[v main@edge edge `ul  1 a 4 4 ]
+"17
+[v main@counter counter `ul  1 a 4 0 ]
+"103
+} 0
+"11 /home/sharan/MPLABXProjects/A2.X/init_config.c
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"15
+} 0
